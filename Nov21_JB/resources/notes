@@ -1,0 +1,69 @@
+Java min version 1.8 >
+
+Command Prompt -> java -version - shows you version
+System Variables: JAVA_HOME: C:\Program Files (x86)\Java\jdk-17\bin
+
+https://spring.io/tools
+
+JS, TS, React  - VSC
+
+RDBMS
+https://www.mysql.com/downloads/
+DBeaver
+
+NoSQL - Not Only SQL
+https://www.mongodb.com/try/download/community
+
+
+JDK  - dev kit
+build & compile java programs
+
+JRE - runtime engine
+run programs which are already compiled
+
+JVM - virtual machine
+
+
+HelloWorld.java - ?
+javac - complile (JDK)
+HelloWorld.class (JRE & JVM)
+java HelloWorld.class
+
+
+OOPS:
+
+1. Class - blue print
+Smartphone - OS, Cam?, $, GPS
+
+2. Object - data container & behvaiour
+	Pixel - Android 12, 40MP, $900, Yes - object
+
+3. Encapsulation - Smartphone.class
+	public, protected, private, def
+	
+4. Inhertience - Smartphone - camera
+					Android
+						Pixel	- 40mp, telephoto
+						Galaxy - 300MP
+						Oneplus - bad
+					Apple
+						iPhone - 40MP
+
+5. Polymorphism - One name - many features
+	overloading
+	overriding
+
+6. Abstraction
+	abstract classes
+	public, protected, private, def
+
+
+Package - logical seperation of classes
+xxx.yyy.zzz.abcd
+
+com.ss.jb.one
+gov
+org
+
+CLA - cmd
+java CLAExample arg1 arg2 arg3
