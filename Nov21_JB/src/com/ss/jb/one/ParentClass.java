@@ -7,15 +7,17 @@ package com.ss.jb.one;
  * @author ppradhan
  *
  */
-final public class ParentClass {
-	
+//final public class ParentClass {
+public class ParentClass {
+
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 	}
-	
-	final public static void run() {
+
+//	final public static void run() {
+	public static void run() {
 		System.out.println("Running in parent");
 	}
 }
