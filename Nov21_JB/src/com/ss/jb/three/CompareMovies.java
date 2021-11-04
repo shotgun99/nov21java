@@ -7,6 +7,7 @@ import java.util.List;
 public class CompareMovies {
 
 	public static void main(String[] args) {
+		Runtime.getRuntime().gc();
 		Movie m1 = new Movie("LOTR 1", 2000, 9.9f);
 		Movie m2 = new Movie("LOTR 2", 2001, 7.9f);
 		Movie m3 = new Movie("LOTR 3", 2003, 9.8f);
@@ -33,7 +34,8 @@ public class CompareMovies {
 			System.out.println(m.toString());
 		}
 		
-		
+//		CompareMovies cm = new CompareMovies();
+//		cm.finalize();
 //		List myList = new ArrayList();
 //		myList.add("SOME STRING");
 //		myList.add(1234);
